@@ -4,7 +4,6 @@
 
 body {
     height: 100vh;
-    width: 100vw;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -86,7 +85,43 @@ a {
 }
 
 .middle-content {
+    background-color: #fff;
+}
 
+.highlight-content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.highlight-heading {
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.highlight-container {
+    display: flex;
+    justify-content: center;
+    gap: 66px;
+    padding-bottom: 100px;
+}
+
+.highlight-item {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    
+}
+
+.illustration {
+    height: 144px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.subtext {
+    text-align: center;
+    margin: 0;
 }
 
 .lower-content {
