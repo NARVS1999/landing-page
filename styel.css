@@ -84,7 +84,6 @@ ul {
 a {
     color: #fff;
     text-decoration: none;
-
 }
 
 .middle-content {
@@ -155,6 +154,38 @@ a {
     align-self: flex-end;
     font-size: 18px;
     font-weight: bold;
+}
+
+.signup-content {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.signup-main-container {
+    display: flex;
+    margin: 100px auto;
+    background-color: #3882f6;
+    color: white;
+    padding: 50px 100px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.signup-heading {
+    font-weight: bolder;
+}
+
+.signup-button {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+.signup-button a {
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 5px 30px;
 }
 
 .lower-content {
