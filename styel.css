@@ -1,6 +1,9 @@
-/* * {
-    border: 1px dotted red;
-} */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    /* border: 1px dotted red; */
+}
 
 body {
     height: 100vh;
@@ -97,6 +100,7 @@ a {
     font-size: 36px;
     font-weight: bolder;
     text-align: center;
+    padding: 36px;
 }
 
 .highlight-container {
@@ -122,6 +126,35 @@ a {
 .subtext {
     text-align: center;
     margin: 0;
+}
+
+.quote-main-container {
+    background-color: #e5e7eb;
+}
+
+.quote-container {
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.quote {
+    padding: 0 100px;
+    font-size: 36px;
+    font-style: italic;
+    color:  #808080;
+
+}
+
+.quote-ref {
+    padding-right: 100px;
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .lower-content {
